@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>JS</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+function teste()      
+{
+var a = document.getElementById("Usuário_input").value;
+var b = document.getElementById("Senha_input").value;
+
+if (a == "Nikki" & b == 123)
+{
+alert("Amém! Está logado");
+}
+else
+{
+alert("ihh cara, errou!"); 
+}
+
+}
+</script>
+
+<style>
+
+.centralizar
+{
+   display: flex;
+    justify-content: center;
+}	
+
+.test
+{
+	color:#9469D6;
+}
+
+.box{
+	width:280px;
+	height:400px;
+	background-color:#CFCFCF;
+	border-radius: 10px;
+	}
+  
+
+body {
+   background: #FFFFFF url("imagem/fundo.jpg") repeat right top fixed;  
+}
+
+</style>
+
+            <div class="fundo">
+
+     	<div class="centralizar">
+        <div class="box">
+  <div id="box">     	
+<img src="imagem/perfil.png" width="50" height="50">
+        </div>          
+    <div class="centralizar">
+<div class="test">
+<h3> ✉ LOGIN </h3>
+<form>
+  <h4> Usuário: </h4>
+  <h5> (𝘦-𝘮𝘢𝘪𝘭 𝘰𝘶 𝘯𝘶𝘮𝘦𝘳𝘰 𝘥𝘦 𝘵𝘦𝘭𝘦𝘧𝘰𝘯𝘦) </h5>
+	<input type="text" placeholder="digite..." id="Usuário_input">
+  <h4> Senha: </h4>	
+	<input type="password" placeholder="digite..." id="Senha_input">
+</form>
+<h5><a href="ESQ.html" target="_blank"> Esqueci a senha. </a></h5>
+
+<form>
+	<button type="submit" style="width: 90px" style="height: 10px" onclick="teste()"> Entrar </button>   
+</div> 
+     </div>
+   </div>
+   	   </div> 
+</form>       
+             </div>
+<script type="text/javascript">
+
+function teste2(){
+     window.location.href = "portifoólio nic.html"
+}
+</script>
+
+
+</body>
+</html>
