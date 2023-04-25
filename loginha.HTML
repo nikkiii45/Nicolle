@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>Loja</title>
+<style type="text/css" media="all">
+/*caixa de pesquisa*/
+    #divBusca{
+    background-color:#D0BAE8;
+    border:solid 2px #4D236C;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    }
+    #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    }
+    #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:72px;
+    font-weight:bold;
+    background:#4D236C;
+    }
+    #divBusca img{
+    float:left;
+    }
+    .barrapesquisa{
+        display: flex;
+        justify-content: center;
+    }
+    /**/  
+    
+    .fonte{
+        font: 400 13.3333px Arial;
+    }
+    .coluna{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        flex-direction: row;
+    }
+    .centralizar{
+       display: flex;
+       justify-content: center;
+    }
+    .cor1{
+        background-color: rgba(60, 16, 94);
+    }
+    .cor2{
+        color: rgba(223, 186, 250);
+    }
+    .boxlateral{
+        width: 70px;
+        height: px;
+        border: 1px #4D236C;
+        padding: 10px 20px;
+        background-color: #7C549A;
+    }
+    .img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .centralizar1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .barra{
+        
+    }
+    .centralizar2{
+        box-sizing: border-box;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        padding: 2px 8px;
+        border-width: 1px;
+        border-color: #4D236C
+    }
+    .butao{
+        
+    }
+    .faixa{
+        background-color: #7C549A;
+    }
+    p{
+        display: block;
+        box-sizing: border-box;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 2px;
+        margin-inline-end: 2px;
+    }
+    .button{
+        
+    }
+</style>
+</head>
+<body>
+<div class="fonte">
+   <div class="cor2">
+ <div class="cor1">
+       <div class="centralizar1">
+<img src="imag/logo.jpg" class="img">
+       </div>
+<div class="centralizar">
+<h3>NIC LOJAS</h3>
+</div>
+ </div>
+ 
+ <div class="barrapesquisa" id="divBusca">
+  <img src="imag/pesquisa.png" alt="Buscar..."/>
+  <input type="text" id="txtBusca" placeholder="O que procura?..."/>
+  <button id="btnBusca">Buscar</button>
+ </div>
+    <div id="Menu"></div>
+     <div class="boxlateral">
+     <button class="centralizar2">☰Menu</button>
+    <p>Aqui você sai com o carrinho cheio e não esvazia o bolso.</p> 
+   </div> 
+     </div>
+     
+     
+ 
+ <p class="faixa">BLUSAS</p>
+ 
+<div class="coluna">
+  <img src="imag/blusa1.jpg">
+  <p>Blusa preta lunar</p>
+  <p>Preço $40,90</p>
+  <button class="">Comprar</button>
+  
+  <img src="imag/blusa2.jpg">
+  <p>Blusa preta </p>
+  <p>Preço $50,00</p>
+  <button class="">Comprar</button>
+</div> 
+  
+  <div class="coluna">
+  <img src="imag/blusakpop1.jpg">
+  <p>Blusa preta do BTS</p>
+  <p>Preço $55,99</p>
+  <button class="">Comprar</button>
+  
+  <img src="imag/blusakpop2.jpg">
+  <p>Croppet preto do Blackpink</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+  </div> 
+  
+  <p class="faixa">CHAPEUS</p>
+      <div class="coluna">
+  <img src="imag/chapeu1.jpg">
+  <p>Chapeu Bucket preto</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+  
+  <img src="imag/chapeu2.jpg">
+  <p>Chapeu Bucket LGBT</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+      </div>
+      
+  <p class="faixa">TENIS</p>
+           <div class="coluna">
+  <img src="imag/tenis1.jpg">
+  <p>Tenis branco</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+  
+  <img src="imag/tenis2.jpg">
+  <p>Tenis preto</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+           </div>
+  <img src="imag/tenis3.jpg">
+  <p>Tenis All star preto</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+  
+  <p class="faixa">BOLSAS</p>
+  <div class="coluna">
+  <img src="imag/bolsa1.jpg">
+  <p>Bolsa lateral preta-liso</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+  
+  <img src="imag/bolsa2.jpg">
+  <p>Bolsa lateral BT21</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+  </div>
+  <img src="imag/bolsa3.jpg">
+  <p>Bolsa lateral BT21-RJ</p>
+  <p>Preço $45,90</p>
+  <button class="">Comprar</button>
+
+  
+</div>
+</body>
+</html>

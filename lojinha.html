@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <link href="" rel="">
+</head>
+<body>
+    
+    <div id="produtos">
+        
+    </div>
+    
+    <div id="carrinho">
+        
+    </div>
+    
+    <script>
+    
+        const ítens=[
+            {
+                id;0
+                nome;"blusa"
+                img;"Imagem/blusa1.jpg"
+                quantidade;20
+            },
+            {
+                id;1
+                nome;"tenis"
+                img;"Imagem/tenis1.jpg"
+                quantidade;20
+            },
+            {
+                id;2
+                nome;"chapeu"
+                img;"Imagem/chepeu1.jpg"
+                quantidade;20
+            },
+            {
+                id;3
+                nome;"bolsa"
+                img;"Imagem/bolsa1.jpg"
+                quantidade;20
+            },
+        ]
+        
+        function inicializarloja=()=>{
+            var caixadeProdutos=document.getElementById("produtos");
+            ítens.map((val)={
+                containerProdutos.innerHTML+=
+                
+                <div class="produto">
+                    <img src="+val.img+"/>
+                    <p>+val.nome+<p/>
+                    <a key="+val.id+" href=""> Adicionar ao carrinho. <a/>
+                <div/>
+            
+            })
+        }
+        
+        inicializarloja();
+        
+        atualizarCarrinho=()=>{
+            
+        }
+        
+        var links=document.getElementByIdTagName("a");
+        
+        for(var i=0; i<links,length; i++){
+            links[i].addEventList("click",function(){
+                let key=this.getAttribute("key");
+                ítens[]
+            })
+        }
+        
+    </script>
+
+</body>
+</html>
