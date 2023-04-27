@@ -7,7 +7,15 @@
 <style type="text/css">
 
 img{
-    border-radius: 50%;
+    border-radius: 70%;
+}
+
+.bordaimg{
+   border:8px solid;
+   color:white;
+   border-radius: 1000000px;
+   width: 19%;
+   background-color: white
 }
 
 .botao:hover{
@@ -15,7 +23,7 @@ img{
 }
 
 .bloco{
-   padding: 3px 15px;
+  padding: 2px 10px;
   background: #7777;
   color: #7755AA;
   border-radius: 3px;
@@ -26,58 +34,69 @@ img{
 #teste{position:relative}
 #teste:hover{top:-2px;box-shadow:0 2px 2px #666}
 
-.teste1
-{
-    color:#7755AA;
+.centro{
+  padding-top: 50px   ;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
-.teste2
-{
-   background-color: rgb(119, 85, 170);
-
+.teste1{
+  color:#7755AA;
 }
 
-.centralizar
-{
-    display: flex;
-    justify-content: center;
+.teste2{
+  background-color: rgb(119, 85, 170);
+}
+
+.centralizar{
+  display: flex;
+  justify-content: center;
+}
+
+.caixa{
+  padding: 3px 13px;
+  background: #ffff;
+  color: #7755AA;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 60%;
+}
+
+.coluna{
+  padding: 3px 15px;
+  background: #ffff;
+  color: #7755AA;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 60%;
 }
 
 body {
-   background: #FFFFFF url("imagem/fundoport.jpg") repeat right top fixed;  
+   background: #BDAFE9 url("imagem/.jpg") repeat right top fixed;  
 }         
-<p>⠀⠀⠀⠀⠀⠀⠀⠀</p>
 
 </style>
 <body>
-              <div class="teste2">    
-<h2 class="centralizar"> PORTIFOLIO </h2>
-              </div>
-               <div class=""> 
-                <p>⠀⠀⠀⠀⠀⠀⠀⠀</p>
-               </div>
-          
-    <div class="">
-        <img src="imagem/perfil.jpg" id="teste">
-        
-    </div>
-
-<p>⠀⠀⠀⠀⠀⠀⠀⠀</p>
-  
-</div>
- 
+                 <div class="teste2">          
+    <div class="bordaimg">
+        <img src="imagem/imgpefil.jpg" id="teste">    
+    </div>       </div>
+          <div class="centro">
 <div class="teste1">
-    <h4 class="centralizar"> ⋄ 𝖭𝗈𝗆𝖾: 𝖭𝗂𝖼𝗈𝗅𝗅𝖾 𝖠𝗇𝖽𝗋𝖺𝖽𝖾 𝖽𝖾 𝖮𝗅𝗂𝗏𝖾𝗂𝗋𝖺 </h4>
-    <h4 class="centralizar"> ⋄ 𝖨𝖽𝖺𝖽𝖾: 𝟣𝟩 𝖺𝗇𝗈𝗌 </h4>
-    <h4 class="centralizar"> ⋄ 𝖢𝗎𝗋𝗌𝖺𝗇𝖽𝗈: 𝖣𝖾𝗌𝖾𝗇𝗏𝗈𝗅𝗏𝗂𝗆𝖾𝗇𝗍𝗈 𝖽𝖾 𝗌𝗂𝗌𝗍𝖾𝗆𝖺𝗌 </h4>
-    <h4 class="centralizar"> ⋄ 𝖤𝗇𝖽𝖾𝗋𝖾𝖼̧𝗈: 𝖲𝖾𝗋𝗋𝖺-𝖤𝖲, 𝖢𝗂𝖽𝖺𝖽𝖾 𝗉𝗈𝗆𝖺𝗋 </h4>
+    <h2 class="centralizar"> ⋄ Olá, sou a Nicolle! </h2>
+    <h3 class="centralizar"> ⋄ Estou cursando desenvolvimento de sistemas na Instituição Senai, em civit I - Serra. </h3>
 </div>
-    <div class="teste1">                   
-<h3 class="centralizar"> ➝ Projetos desenvolvidos </h3>
-                      
-<h4 class="centralizar"><a class="" class="" href="python.html" target="_blank"> Python </a></h4>
-<h4 class="centralizar"><a class="" class="" href="js.html" target="_blank"> Javascript </a></h4>
+          <div/>
 
+    <div class="teste1">             
+<div class="caixa">                  
+<h3> ➝ Projetos desenvolvidos </h3>                     
+<h4 class=""><a class="" class="" href="python.html" target="_blank"> Python </a></h4>
+<h4 class=""><a class="" class="" href="js.html" target="_blank"> Javascript </a></h4>
+<h4 class="teste1"><a class="" class="" href="JgTamagochi.html" target="_blank"> HTML & CSS </a></h4>
+</div>
     </div>
+                  <div/>
 </body>
 </html>
